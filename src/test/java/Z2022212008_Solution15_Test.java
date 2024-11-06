@@ -4,7 +4,7 @@ public class Z2022212008_Solution15_Test {
         Solution15 solution = new Solution15();
 
         // 测试用例1：版本1大于版本2  
-        String version1 = "1.2.3.4"
+        String version1 = "1.2.3.4";
         String version2 = "1.2.3";
         int result = solution.compareVersion(version1, version2);
         System.out.println("Test Case 1: " + (result == 1 ? "Passed" : "Failed")); // 预期结果为1  
